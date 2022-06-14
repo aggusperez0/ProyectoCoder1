@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    background: #303030;
+    font-family: "roboto", sans-serif;
+    overflow-x: hidden;
+}
+
+/*===============MENU============*/
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    background: #e91e63;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 150px;
+}
+
+/*===============CONTACTO============*/
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 170px;
+    width: 270px;
+    background: #171717;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    margin: 20px;
+}
+
+.box-container .box i {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #e91e63;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #e91e63;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+/*===============SLIDER DE IMAGENES============*/
+
+.carousel-inner {
+    max-height: 40rem;
+}
+
+/*===============MEDIA QUERIES PANTALLA ANCHA============*/
+
+@media(max-width: 1200px) {
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
+/*===============MEDIA QUERIES PANTALLA SMALL============*/
+
+@media (max-width:768px) {
+    #intro, #equipo {
+        width: 90% !important;
+    }
+
+    #equipo p {
+        display: none;
+    }
+
+    .menu-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+
+}
+
+/*===============MEDIA QUERIES PANTALLA XSMALL============*/
+
+@media(max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+/*===============SECCION NUESTROS CHEF============*/
+
+.img-fluid {
+    padding: 30px;
+}
+
+#local {
+    background: #f3f3f3;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px;
+}
+
+/*===============FOOTER============*/
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #f3f3f3;
+}
+
+.footer {
+    padding: 50px 0;
+    background: #171717;
+}
+
+.footer-section {
+    color: #f3f3f3;
+    display: flex;
+    padding: 0 400px;
+    margin: 5px;
+}
+
+.f-enlaces {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+}
+
+.f-enlaces a {
+    color: #f3f3f3;
+    text-decoration: none;
+    margin-top: 20px;
+}
