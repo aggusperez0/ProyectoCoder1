@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Shelby´s Bar</title>
+  </head>
+
+  <body>
+
+    <!--ENCABEZADO-->
+
+    <header class="container-fluid bg-dark
+     d-flex justify-content-center">
+        <p class="text-light mb-0 p-1
+        fs-8">También podes hacer tu pedido!</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-light p-2" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="text-dark fs-5 fw-bold">Shelby´s Bar</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./reservas.html">Reservas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--SLIDER DE IMAGENES-->
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="../imagenes/pngg.jfif" class="d-block w-100" alt="Slide1">
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="../imagenes/png2.jpg" class="d-block w-100" alt="Slide2">
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="../imagenes/png3.jpg" class="d-block w-100" alt="Slide3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--INTRO-->
+
+      <section class="w-50 mx-auto text-center pt-4" id="intro">
+        <h1 class="p-3 fs-2 border-top border-3 text-white">Nuestro Menu</h1>
+        <p class="text-white fs-0.5">Contamos con distintas variedades de menu</p>
+      </section>
+
+      <!--MENU-->
+
+      <section class="container-fluid">
+        
+        <div class="row w-75 mx-auto my-5 menu-fila">
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="../imagenes/menu 1.jpg" alt="hamburguesa" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 text-white">Hamburguesa</h3>
+                    <p class="px-2 text-white">Vení a probar las mejores burgers</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="../imagenes/sorrentinos-con-salsa-fileto.jpg" alt="pastas" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 text-white">Pastas</h3>
+                    <p class="px-2 text-white">Vení a probar las mejores pastas caseras</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="../imagenes/menu 4.jpg" alt="pizzas" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 text-white">Pizzas</h3>
+                    <p class="px-2 text-white">Vení a probar nuestras pizzas estilo italianas</p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!--NOSOTROS-->
+
+      <section>
+        <div class="w-75 m-auto text-center" id="equipo">
+            <h1 class="mb-5 fs-2 text-white">Nuestros Chefs</h1>
+            <p class="fs-4 text-white">Las responsabilidades del chef incluyen estudiar recetas, crear menús y preparar platos de alta calidad.
+                 Debe ser capaz de delegar tareas al personal de cocina para garantizar que las comidas se preparen de forma oportuna.
+                  Además, debe estar familiarizado con las normativas sanitarias..
+            </p>
+        </div>
+
+        <div class="mt-5 text-center">
+            <img class="img-fluid" src="../imagenes/chef.jpg" alt="equipo">
+        </div>
+
+      </section>
+
+      <!--FOOTER-->
+
+      <footer class="footer">
+        <h2 class="title">Contacto</h2>
+            <div class="row justify-content-center">
+            	<div class="col-auto">
+                	<a href="URL" target="_blank" rel="noopener" style="margin-right:10px">
+                    <img alt="siguenos en facebook" height="40" width="40" src="https://webmasfacil.info/wp-content/uploads/2021/02/facebook.png" title="siguenos en facebook"/>
+                  </a>
+
+                	<a href="URL" target="_blank" rel="noopener" style="margin-right:10px">
+                    <img alt="siguenos en instagram" height="40" width="40" src="https://webmasfacil.info/wp-content/uploads/2021/02/instagram.png" title="siguenos en instagram" />
+                  </a>
+
+                  <a href="URL" target="_blank" rel="noopener" style="margin-right:10px">
+                    <img alt="siguenos en whatsapp" height="40" width="40" src="https://webmasfacil.info/wp-content/uploads/2021/02/whatsapp.png" title="siguenos en whatsapp" />
+                  </a>
+
+                  <a href="URL" target="_blank" rel="noopener">
+                    <img alt="siguenos en twitter" height="40" width="40" src="https://webmasfacil.info/wp-content/uploads/2021/02/twitter.png" title="siguenos en twitter" />
+                  </a>
+              </div>
+	         </div>
+      </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  </body>
+</html>
