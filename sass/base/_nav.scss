@@ -1,3 +1,5 @@
+@import "../components/variables";
+
 #menu a {
     font-size: 18px;
     font-weight: bold;
@@ -16,6 +18,6 @@
 p {
     margin-bottom: 40px;
     font-size: 18px;
-    color: #fff;
+    color: $color-texto;
     padding: 0 150px;
 }
